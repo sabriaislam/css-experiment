@@ -1,33 +1,35 @@
+*{
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .title {
   background-color: yellow;
 }
 
 .text div:nth-of-type(2) p {
-  border: 2px solid blue;
+  border: 2vh solid blue;
 }
 
 .text .line-1 p,
 .text .line-5 p {
   color: red;
+  font-size: 2vmin;
 }
 
-.text .line-4 p,
-.text .line-3 p {
+.text .line-4 p{
   color: blue;
-}
+  font-size: 10vmax;
 
-.text > p {
-  font-size: 16vm;
-}
-
-.line-4 + .line-4 .bee-image {
-  border: 2vm solid green;
 }
 
 .text p:last-of-type:hover {
-  background-color: yellow;
+  background-color: yellow
 }
 
-
+.scientist-image > .caption {
+  background-color: green;
+}
 
 
