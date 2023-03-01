@@ -1,0 +1,33 @@
+.title {
+  background-color: yellow;
+}
+
+.text div:nth-of-type(2) p {
+  border: 2px solid blue;
+}
+
+.text .line-1 p,
+.text .line-5 p {
+  color: red;
+}
+
+.text .line-4 p,
+.text .line-3 p {
+  color: blue;
+}
+
+.text > p {
+  font-size: 16vm;
+}
+
+.line-4 + .line-4 .bee-image {
+  border: 2vm solid green;
+}
+
+.text p:last-of-type:hover {
+  background-color: yellow;
+}
+
+
+
+
